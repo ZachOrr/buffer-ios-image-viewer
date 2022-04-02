@@ -6,15 +6,14 @@
 //
 //
 
+@import Photos;
+@import PhotosUI;
+@import PINRemoteImage;
+
 #import "BFRImageContainerViewController.h"
 #import "BFRBackLoadedImageSource.h"
 #import "BFRImageViewerDownloadProgressView.h"
 #import "BFRImageViewerConstants.h"
-#import <Photos/Photos.h>
-#import <PhotosUI/PhotosUI.h>
-#import <PINRemoteImage/PINAnimatedImageView.h>
-#import <PINRemoteImage/PINRemoteImage.h>
-#import <PINRemoteImage/PINImageView+PINRemoteImage.h>
 
 @interface BFRImageContainerViewController () <UIScrollViewDelegate, UIGestureRecognizerDelegate>
 

@@ -6,7 +6,7 @@
 //
 //
 
-#import <UIKit/UIKit.h>
+@import UIKit;
 
 typedef NS_ENUM(NSUInteger, BFRImageAssetType) {
     BFRImageAssetTypeImage,

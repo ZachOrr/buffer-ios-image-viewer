@@ -6,8 +6,8 @@
 //  Copyright © 2017 Andrew Yates. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
-#import <UIKit/UIKit.h>
+@import Foundation;
+@import UIKit;
 
 typedef void(^onHiResDownloadComplete)(UIImage * _Nullable,  NSError * _Nullable);
 
